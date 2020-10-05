@@ -1,3 +1,5 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  until array.include?(value_to_find) do
+    array.each 
+  end
 end
