@@ -1,5 +1,7 @@
 def find_element_index(array, value_to_find)
-  until array.include?(value_to_find) do
-    array.each 
+  if array.include?(value_to_find)
+    puts value_to_find
+  else
+    nil
   end
 end
